@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+.blogpostcontent {
+    font-size: 18px;
+    font-family: 'Cardo', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.homearticlecontent a{
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+@media screen and (max-width: 1000px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+        font-family: 'Cardo', serif;
+    font-family: 'Roboto', sans-serif;
+       
+    }
+    .nav-left{
+       text-align: center;
+        flex-direction: column;
+    }
+    .nav-right{
+        margin-top: 17px;
+        margin-bottom: 17px;
+        margin-left: 89px;
+    }
+    .nav-right input{
+        border: 1px solid black;
+        margin-left: -75px;
+        padding-right: 40px;
+        padding-left: 47px;
+       
+    }
+    .nav-right button{
+        border: 1px solid black;
+       
+    }
+    .content-right img{
+    display: none;
+    }
+    .homearticle{
+        flex-direction: column;
+        
+    }
+    .homearticle img{
+        
+        margin-left: 37px;
+
+       
+        
+    }
+   .homearticle2{
+    display: flex;
+    margin: 25px;
+    background-color: #fce7ea;
+       
+   }
+   .homearticle2 img{
+    width: 97%;
+    margin-right: 0px;
+   }
+    .homearticles h2{
+        font-size: large;
+        margin-left: 19px;
+    }
+    .yearbox{
+        display: none;
+    
+       
+    }
+    .btn{
+    /* margin-left: 86px;
+    margin-top: 12px; */
+    border: 1px solid black;
+    }
+    .nav-left img {
+        margin-left: 140px;
+        height: 69px;
+        width: 181px;
+   
+        margin-bottom: 35px;
+    }
+   
+   .nav-left ul{
+    margin-left: 12px;
+   }
+.inputform{
+    width: 50%;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+   
+
+}
+.row{
+    flex-direction: column;
+}
+.postcsimg img {
+    width: 100%;
+    margin-top: 89px;
+    height: 173px;
+}
+.homearticles h2 {
+    font-size: large;
+    margin-left: 19px;
+    margin-top: 26px;
+    margin-left: 48px;
+}
+.js{
+    
+    margin-left: 20px;
+    display: flex;
+    height: 120px;
+    
+    
+}
+.content h1{
+    font-size: 40px;
+}
+/* .js span{
+    
+} */
+.content p{
+    margin-top: 120px;
+}
+
+ 
+   
+}
+
+
+
+
+

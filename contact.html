@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingWithShubham</title>
+</head>
+
+<body>
+    <nav class="navigation max-width1 marginauto">
+
+        <div class="nav-left">
+            <img src="https://gcdn.pbrd.co/images/jahHog1UqALm.jpg?o=1" alt="logo" width="60px" height="50px">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/about.html">About</a></li>
+
+            </ul>
+
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+
+                <input type="text" name="query" placeholder="Search Here" class="inputform">
+                <button class="btn">
+                    Search
+                </button>
+            </form>
+
+        </div>
+    </nav>
+    <div class="max-width1 marginauto">
+        <hr>
+    </div>
+    <!-- Default form contact -->
+    <div class="contact-content max-width1 marginauto">
+        <div class="max-width1 marginauto">
+
+
+            <h2>Contact Me</h2>
+            <div class="contactform">
+                <div class="formbox"><input type="text" class="inputbox" placeholder="Enter your Name">
+                </div>
+                <div class="formbox"><input type="text" class="inputbox" placeholder="Enter your Email">
+                </div>
+                <div class="formbox"><input type="text" class="inputbox" placeholder="Enter your Telephone">
+                </div>
+                <div class="formbox"><textarea name="Feedback" id="" cols="30" rows="10"
+                        placeholder="Feedback"></textarea></div>
+                <div class="formbox"><button class="btn">Submit</button></div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <p>Copyright @2022</p>
+        <p>All rights reserved</p>
+        <p>mamgainshubham18@gmail.com</p>
+
+    </div>
+
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-content {
+
+        height: 80vh;
+        font-family: 'Cardo', serif;
+        font-family: 'Roboto', sans-serif;
+        display: block;
+        padding: 23px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .contact-content::after {
+        content: "";
+        height: inherit;
+        background-image: url("/contactus.jpg");
+        position: absolute;
+        top: 0;
+        background-repeat: no-repeat;
+        width: 100%;
+        opacity: 0.5;
+        z-index: -1;
+        background-size: cover;
+
+    }
+
+    .contact-content h2 {
+        color: black;
+        font-size: xx-large;
+    }
+
+    .formbox input,
+    textarea {
+        width: 44vw;
+        padding: 10px 6px;
+        margin: 5px;
+        border: 2px solid #0f0f0f;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+        box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+        opacity: 0.7;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .h4 {
+        font-size: 60px;
+        color: #FA2742;
+    }
+
+    #defaultContactFormName {
+        padding: 1%;
+        border-color: #FA2742;
+        border: 2.3px solid #FA2742;
+    }
+
+    #defaultContactFormEmail {
+        padding: 1%;
+        margin: 2%;
+        border: 2.3px solid #FA2742;
+    }
+
+    #exampleFormControlTextarea2 {
+        padding-top: 2.5%;
+        padding-bottom: 2%;
+        padding-right: 2%;
+        margin-top: 0.5%;
+        border: 2.3px solid #FA2742;
+    }
+
+    .navigation {
+        margin-top: 33px;
+        height: 53px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Cardo', serif;
+        font-family: 'Roboto', sans-serif;
+       
+
+
+
+    }
+
+    .contactforms {
+        margin-left: 23%;
+        margin-top: 4%;
+        height: 234px;
+        margin-bottom: 7%;
+
+    }
+
+    .my-2 {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .inputform {
+        padding: 0px 5px;
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        font-size: 16px;
+        border: 3px solid black;
+        border-radius: 4px;
+        margin: 0px 13px;
+        -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+
+
+
+
+    }
+
+    .homearticles {
+        padding-top: 65px;
+        margin-top: 24px;
+
+    }
+
+    .homearticle {
+        display: flex;
+        margin: 25px;
+        background-color: #fce7ea;
+    }
+
+    .homearticle img {
+        border: 1px solid;
+        border-radius: 88px;
+    }
+
+    .homearticlecontent {
+        align-self: center;
+        padding: 25px;
+    }
+
+    .homearticlecontent a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .btn {
+        padding: 6px;
+        border: 2.5px solid black;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+
+
+    .btn:hover {
+        color: white;
+        background-color: #FA2742;
+        transition: 0.5s ease-in-out;
+    }
+
+    .content {
+
+        height: 300px;
+        display: flex;
+        padding: 23px;
+        position: relative;
+    }
+
+    .content::after {
+        content: "";
+        height: inherit;
+        background-image: url("https://media.gettyimages.com/photos/woman-busy-working-on-her-laptop-at-cafe-picture-id1129377183?s=612x612");
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 100%;
+        opacity: 0.22;
+
+        background-size: cover;
+
+    }
+
+    .nav-left ul li {
+        text-decoration: none;
+        list-style: none;
+        margin: 0 19px;
+        color: black;
+    }
+
+    .nav-left ul li a:hover {
+        color: #FA2742;
+        transition: 0.5s ease-in-out;
+
+    }
+
+    .nav-left ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+
+
+    .footer {
+
+        height: 70px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+    }
+
+    .max-width1 {
+        max-width: 80vw;
+
+    }
+
+    .max-width2 {
+        max-width: 60vw;
+
+    }
+
+    .marginauto {
+        margin: auto;
+
+    }
+
+    .nav-left {
+        display: flex;
+    }
+
+    .nav-left ul {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .content-right {
+        /* width: 50%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .content-right img {
+        height: 200px;
+        width: 200px;
+        /* border: 2px solid black; */
+        border-radius: 83px;
+    }
+
+    .content-left {
+        /* width: 50%; */
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .nav-right {
+            display: none;
+        }
+        .nav-left{
+            margin-left: 28px;
+        }
+
+        .nav-left ul {
+            display: flex;
+            align-items: center;
+            margin-left: -43px;
+        }
+        .nav-left img{
+            display: none;
+        }
+        .formbox input,
+    textarea {
+        width: 44vw;
+        padding: 9px 64px;
+        margin: 5px;
+        border: 2px solid #0f0f0f;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+        box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+        opacity: 0.7;
+    }
+    .contact-content h2 {
+    color: black;
+    font-size: xx-large;
+    margin-left: 68px;
+}
+.btn {
+    padding: 6px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 117px;
+}
+    }
+</style>
+
+</html>
